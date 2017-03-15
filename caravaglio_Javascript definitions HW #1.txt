@@ -1,0 +1,38 @@
+Javascript HW #1
+
+1. variables- store values with unique names called identifiers. They can contain letters, digits, underscores, and dollar signs. They are case sensitive. Usually start with a letter. Many variables are written like this: studentName
+
+2. Strings- stores a series of characters(letters) and have single or double quotes around them. ex. 'Gray Cee'
+
+3. Functions (arguments, return)- A JavaScript function is a block of code designed to perform a particular task. A JavaScript function is executed when "something" calls it.
+
+	function myFunction(p1, p2) {
+    	return p1 * p2;              // The function returns the product of p1 and p2
+	}
+
+	Function parameters are the lists in the function definition, and the arguments are the actual numbers recieved by the function when it is called.
+
+	When the function reaches a return statement the function will stop executing. 
+
+	var x = myFunction(4, 3);        // Function is called, return value will end up in x
+
+	function myFunction(a, b) {
+    	return a * b;                // Function returns the product of a and b
+	}
+
+4. if statements: In JavaScript we have the following conditional statements:
+
+	Use if to specify a block of code to be executed, if a specified condition is true
+	Use else to specify a block of code to be executed, if the same condition is false
+	Use else if to specify a new condition to test, if the first condition is false
+	Use switch to specify many alternative blocks of code to be executed
+
+	if (condition) {
+    	block of code to be executed if the condition is true
+	}
+
+	if (hour < 18) {
+    	greeting = "Good day";
+	}
+
+5. Boolean values (true, false): Booleans may only be one of two values: true or false. They are basically little on-off switches, where true is "on" and false is "off." These two states are mutually exclusive.
